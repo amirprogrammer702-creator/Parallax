@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .business-box {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+            background: url("https://www.jowhareh.com/images/Jowhareh/galleries_12/poster_c1c72daf-e8c4-421c-ba45-b4962afc4f96.jpeg") no-repeat center center/cover;
+        }
+
+        .box {
+            width: 60vh;
+            padding: 10px;
+            background: rgba(65, 166, 197, 0.466);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(255, 239, 239, 0.788);
+            text-align: center;
+        }
+
+        .box img {
+            width: 50%;
+            height: 200px;
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        nav {
+
+            background-color: rgb(255, 0, 179);
+            list-style: none;
+            text-align: center;
+            display: flex;
+            position: fixed;
+            gap: 20px;
+            align-items: center;
+        }
+
+        a {
+            font-size: x-large;
+            color: lab(100% 0.01 -0.01);
+            text-decoration: none;
+            padding: 10px 330px;
+            border-radius: 12px;
+            transition: .2s;
+        }
+
+        a:hover {
+            background-color: rgb(60, 255, 0);
+        }
+
+        .parallax {
+            /* width: 100%; */
+            height: 100vh;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            background: #fafafa;
+            font-family: sans-serif;
+            background: url("https://parsiday.com/wp-content/uploads/2024/12/@Wallpperz-d-2-2-scaled.jpg") no-repeat center center/cover;
+            background-attachment: fixed;
+
+
+
+        }
+
+        .secondParallax {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #fafafa;
+            font-family: sans-serif;
+            background: url("https://www.jowhareh.com/images/Jowhareh/galleries_9/large_704c4965-2373-4611-8012-a1c5433ca1db.webp") no-repeat center center/cover;
+            background-attachment: fixed;
+
+
+        }
+
+        section {
+            background-color: black;
+            color: #f2f2f2;
+            padding: 50px;
+            text-align: center;
+            font-size: x-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow: 5px 5px 5px black;
+        }
+
+        header {
+            background: url("https://tiktarh.com/storage/old/2024/12/Cart1033528www.tiktarh.com_.jpg") no-repeat center center/cover;
+            padding: 30px;
+            color: #fff;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid#ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+footer{
+    text-align: center;
+}
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar li {
+                margin: 0.5rem 0;
+            }
+
+            .parallax {
+                font-size: 2rem;
+                text-align: center;
+                padding: 1rem;
+            }
+
+            .jumbotron h1 {
+                font-size: 2rem;
+            }
+
+            .jumbotron p {
+                font-size: 1rem;
+            }
+
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 90%;
+            }
+
+            form {
+                width: 90%;
+            }
+
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-column {
+                margin: 1rem 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar a {
+                font-size: 1rem;
+            }
+
+            .parallax {
+                font-size: 1.5rem;
+            }
+
+            .jumbotron h1 {
+                font-size: 1.5rem;
+            }
+
+            .jumbotron p {
+                font-size: 0.9rem;
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 0.8rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="#po96">home</a>
+        <a href="#io98">about</a>
+        <a href="#uo87">contact</a>
+    </nav>
+    <h2 id="po96"></h2>
+    <div class="parallax"></div>
+    <h2 id="io98"></h2>
+    <main class="business-box">
+        <div class="box">
+            <img src="https://katoonistore.ir/wp-content/uploads/2025/08/Jordan-05-Air-Jordan-1-Low-96-553558-412-White-Blue-Gray-9-Angle_01-600x600.webp"
+                alt="" loading="lazy">
+            <h3 style="color: rgb(19, 117, 245);">نایک ایر جردن 1 لو تورو بلو (553558-412)</h3>
+            <p>توضیحات...</p>
+        </div>
+        <div class="box">
+            <img src="https://katoonistore.ir/wp-content/uploads/2025/05/Air-Jordan-1-High-OG05_-FJ0849001_Black-Green_9-Angle_01_result-600x600.webp"
+                alt="" loading="lazy">
+            <h3 style="color: rgb(43, 173, 75);">نایک ایر جردن 1 های جی ایکس ایست ساید گلف (FJ0849001)</h3>
+            <p>توضیحات...</p>
+        </div>
+        <div class="box">
+            <img src="https://katoonistore.ir/wp-content/uploads/2024/12/Air-Jordan-4-Retro-80-FQ8138-002-Gray-Black-9-Angle-1.webp"
+                alt="" loading="lazy">
+            <h3 style="color: rgb(46, 43, 43);">نایک ایر جردن 4 رترو فییر (FQ8138-002)</h3>
+            <p>توضیحات...</p>
+        </div>
+    </main>
+    <div class="secondParallax"></div>
+    <h2 id="uo87"></h2>
+    <header>
+        <form action="/submit" method="post">
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" placeholder="text you name" required>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="text you email" required>
+            <label for="message">massage</label>
+            <textarea name="massage" id="massage"></textarea>
+            <input type="checkbox">
+            <button type="submit">send</button>
+        </form>
+    </header>
+    <footer>
+        تماس:
+        <a href="tel:+989196423908">09196423908</a>
+        <a href="https//:wa.me"></a>
+    </footer>
+</body>
+
+</html>
